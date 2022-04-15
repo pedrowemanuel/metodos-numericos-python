@@ -2,7 +2,7 @@ from numerical_methods import false_position
 from functions import find_valid_range
 
 def f1(x):
-	return x**2 - x - 2
+	return x**3 - 9*x + 3
 
 minimum_value_range = int(input("Digite o valor do início do intervalo: "))
 maximum_value_range = int(input("Digite o valor do fim do intervalo: "))
